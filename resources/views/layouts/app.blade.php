@@ -13,7 +13,11 @@
         <!-- Scripts -->
         {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
         <script defer src="{{asset('js/app.js')}}"></script>
+
+        {{-- lib do stripe --}}
+        <script src="https://js.stripe.com/v3/"></script>
 
     </head>
     <body class="font-sans antialiased">
